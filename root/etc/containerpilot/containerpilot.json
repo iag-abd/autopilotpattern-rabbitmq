@@ -1,0 +1,6 @@
+{
+  "consul": "consul:8500",
+  "preStart": "/etc/containerpilot/pilotaction.sh preStart",
+  "preStop": "/etc/containerpilot/pilotaction.sh postStop consul:8500",
+  "postStop": "/etc/containerpilot/pilotaction.sh postStop consul:8500"
+}
