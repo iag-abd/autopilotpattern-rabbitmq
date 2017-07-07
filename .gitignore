@@ -15,7 +15,6 @@ docker/rabbitmq_autocluster*ez
 .vagrant
 .idea
 cover
-plugins
 autocluster.d
 bin/rebar
 rebar.lock
